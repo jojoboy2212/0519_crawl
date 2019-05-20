@@ -1,0 +1,7 @@
+<h1>관련 뉴스</h1>
+    {% for title in title_list %}
+   
+      
+        <a href="{{ title.url }}">{{ title.title }}<br><br></a>
+     
+    {% endfor %}
